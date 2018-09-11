@@ -12,9 +12,8 @@
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
     
-{{site.sharethis}}
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5b97a22d8201320011e9073a&product=sticky-share-buttons"></script>
     
-{% if jekyll.environment == 'production' %}    
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36462674-9"></script>
 <script>
@@ -24,8 +23,6 @@
 
   gtag('config', 'UA-36462674-9');
 </script>
-
-{% endif %}  
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}

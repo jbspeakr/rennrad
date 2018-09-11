@@ -7,7 +7,6 @@ favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '' 
 email: ''
-google_analytics: ''
 disqus: 'berlin-rennrad'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5b97a22d8201320011e9073a&product="sticky-share-buttons"></script>'
 

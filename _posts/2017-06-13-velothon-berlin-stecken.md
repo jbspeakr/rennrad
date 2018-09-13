@@ -4,7 +4,7 @@ title:  "Velothon Berlin 2017 – Alle Strecken (.TCX & .GPX)"
 description: Test
 categories: [ Velothon, Rennradtouren ]
 image: assets/images/2018/velothon-berlin-strecken.png
-permalink: /velothon-berlin-strecken-download
+permalink: /velothon-berlin-strecken-download/
 ---
 
 Der Velothon Berlin gehört zu den schnellsten Jedermann-Radrennen der Welt. Seit 10 Jahren messen sich Amateur- und Profi-Radsportler auf verschiedenen Strecken durch die berliner Innenstadt und das berliner Umland. 

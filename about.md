@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: Über mich
 comments: true
+permalink: /ueber-mich/
 ---
 
 Under Construction

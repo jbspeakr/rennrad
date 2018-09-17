@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Über mich
-comments: true
+comments: false
 permalink: /ueber-mich/
 ---
 

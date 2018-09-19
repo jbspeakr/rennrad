@@ -1,7 +1,8 @@
 # Site
 name: Berlin Rennrad 
-description: Jekyll Theme for Blogging
-meta_description: "Jekyll theme for blogging."
+title: Rennradblog | Berlin Rennrad
+description: "Der Rennradblog aus der Hauptstadt. Mit Rennradgeschichten, den besten Rennradtouren, Tipps für Rennradbekleidung und aktueller Rennradkultur in Berlin."
+meta_description: "Der Rennradblog aus der Hauptstadt. Mit Rennradgeschichten, den besten Rennradtouren, Tipps für Rennradbekleidung und aktueller Rennradkultur in Berlin."
 logo: 'assets/images/logo.png'
 paginate: 12
 baseurl: '' 
@@ -23,7 +24,14 @@ authors:
 plugins: 
   - jekyll-paginate
   - jekyll-archives
-    
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
+# Feed
+feed:
+  path: feed.xml
+
 # Archives
 jekyll-archives:
   enabled:

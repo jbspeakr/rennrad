@@ -3,7 +3,6 @@ name: Berlin Rennrad
 description: Jekyll Theme for Blogging
 meta_description: "Jekyll theme for blogging."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '' 
 email: ''

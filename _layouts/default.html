@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">    
 <title>{{ page.title }} | {{site.name}}</title>
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}    
+{% if  page.type == 'category' %}{% assign postTitles = page.posts | map: 'title' | join: ', ' %}<meta name="description" content="{{ postTitles | truncate: 160 }}">{% elsif paginator and paginator.page != 1 %}{% assign postTitles = paginator.posts | map: 'title' | join: ', ' %}<meta name="description" content="{{ postTitles | truncate: 160 }}">{% elsif page.description %}<meta name="description" content="{{ page.description }}">{% endif %}    
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">

@@ -8,6 +8,7 @@ paginate: 12
 baseurl: '' 
 email: ''
 disqus: 'berlin-rennrad'
+url: "https://www.berlin-rennrad.de"
 
 # Authors
 authors:

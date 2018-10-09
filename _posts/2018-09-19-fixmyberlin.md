@@ -5,6 +5,7 @@ description: "Das Projekt fixmyberlin.de dokumentiert alle Radinfrastruktur-Proj
 categories: [ Radinfrastruktur ]
 image: assets/images/2018/radinfrastruktur-fixmyberlin.jpg
 permalink: /radinfrastruktur-fix-my-berlin/
+featured: true
 ---
 
 Alle Radinfrastruktur-Projekte in Berlin versucht die Plattform [fixmyberlin.de](https://fixmyberlin.de) zu dokumentieren. Ziel der Macher ist es, Transparenz in die Planung und Umsetzung von Radprojekten in der Hauptstadt zu bringen.

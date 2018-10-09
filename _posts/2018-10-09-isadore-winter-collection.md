@@ -6,7 +6,7 @@ categories: [ Rennrad-Bekleidung ]
 image: assets/images/2018/isadore-rennrad-bekleidung.jpg
 permalink: /merino-rennrad-bekleidung-winter-isadore/
 video: true
-featured: false
+featured: true
 ---
 
 Gute Rennrad-Bekleidung für die kalten Wintermonate zu finden ist gar nicht so leicht. Viele Hersteller tun sich ungemein schwer Funktionalität und modernes Design für kalte Tage und schlechte Sicht in Einklang zu bekommen.

@@ -6,7 +6,7 @@
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">    
 <title>{{ page.title }} | {{site.name}}</title>
 {% if  page.type == 'category' %}{% assign postTitles = page.posts | map: 'title' | join: ', ' %}<meta name="description" content="{{ postTitles | truncate: 160 }}">{% elsif paginator and paginator.page != 1 %}{% assign postTitles = paginator.posts | map: 'title' | join: ', ' %}<meta name="description" content="{{ postTitles | truncate: 160 }}">{% elsif page.description %}<meta name="description" content="{{ page.description }}">{% endif %}    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
@@ -48,7 +48,7 @@
             <ul class="navbar-nav ml-auto">
                 
                 <li class="nav-item">                
-                <a class="nav-link" href="{{ site.baseurl }}">Home</a>
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                 </li>
 
                 <!-- <li class="nav-item dropdown">
@@ -140,7 +140,7 @@
                 <div class="col-sm-3">
                 <div class="footer-widget">
                 <a href="{{site.baseurl}}/contact">
-                <img src="{{ site.baseurl }}/assets/images/logo-footer.png">
+                <img alt="Berlin Rennrad Initialien Logo" src="{{ site.baseurl }}/assets/images/logo-footer.png">
                 </a>
                 </div>
                 </div>
@@ -173,12 +173,12 @@
             </div>
 
             <div class="copyright">
-                <p class="pull-left">
+                <p class="pull-left small">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
                 </p>
-                <p class="pull-right">
+                <p class="pull-right small">
                 <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ --> 
-                <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
+                <a target="_blank" rel="noreferrer" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">Affiliates Theme</a> - Design & Code by WowThemes.net
                 </p>
                 <div class="clearfix"></div>
             </div>
@@ -195,11 +195,7 @@
 <!-- JavaScript
 ================================================== -->
     
-<script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
 {% if page.video %}
 <script src="{{ site.baseurl }}/assets/js/jquery.fitvids.js"></script>
 
@@ -211,9 +207,9 @@
 </script>
 {% endif %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha384-CPFFlrdhp9pDDCqRqdTKNZ5oAHsnfnvHGt0CsRIeL5Gc7V/OkP1Y4w8zTxlV3mat" crossorigin="anonymous"></script>
     
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
     

@@ -47,3 +47,4 @@ highlighter: rouge
 
 include:
   - '_redirects'
+  - '.well-known'

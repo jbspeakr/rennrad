@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: berlin-rennrad.de
+Token: fd7b61b80d2dbd2c74fbad26e55baeec1dd608c023bb7d5590bc52f3d5459cdc
